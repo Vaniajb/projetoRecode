@@ -8,3 +8,6 @@
 .nav{
     background-color: rgb(196, 184, 245);
 }
+.card{
+    display:flex; 
+}

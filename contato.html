@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"  integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
   </head>
   <body>
      
@@ -13,27 +14,61 @@
 
              <!-- BARRA DE NAVEGAÇÃO  -->
              <ul class="nav nav-tabs">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                  </li>
-                <li class="nav-item">
+              <div class="row">
+                <div class="col">
+                  <a class="nav-link" href="index.html">Home</a>
+                </div>
+                <div class="col">
                   <a class="nav-link" href="promocao.html">Promoções</a>
-                </li>
-                <li class="nav-item">
+                </div>
+                <div class="col">
                   <a class="nav-link" href="destino.html">Destinos</a>
-                </li>
-                <li class="nav-item">
+                </div>
+                <div class="col">
                   <a class="nav-link" href="contato.html">Contatos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="cadastro.html">Cadastro</a>
-                </li>
-              </ul>
-          <!-- FIM DA BARRA DE NAVEGAÇÃO -->
+                </div>
+                <div class="col">
+                  <a href="login.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Login</a>
+                </div>
+                <div class="col">
+                  <a href="cadastro.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Cadastre-se</a>
+                </div>
+              </div>
+            </div>
+          </ul>
+              <!-- FIM DA BARRA DE NAVEGAÇÃO -->
 
-<h1>Hello word</h1>
+<!-- MODAL -->
+<!-- Botão para acionar modal -->
+<div class="meuModal">
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo">
+  Entre em Contato com a Gente
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Título do modal</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <h2>Teste</h2>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-primary">Salvar mudanças</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 
 
+<!-- FIM DO MODAL -->
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>

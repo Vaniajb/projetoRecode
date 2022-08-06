@@ -11,3 +11,19 @@
 .card{
     display:flex; 
 }
+
+/* TELA DE LOGIN FORMULARIO */
+.containerLogin{
+    border: 2px solid rgb(146, 128, 128);
+    margin-top: 50px;
+     
+}
+
+
+/* TELA DE CADASTRO */
+
+.formularioCadastro{
+    border: 2px solid rgb(146, 128, 128);
+    margin-top: 50px;
+     
+}

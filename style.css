@@ -1,8 +1,8 @@
 /* PAGINA TRAVELBAT */
 
 .carousel-inner{
-    height: 1000%;
-    width: 1500px;
+    height: 700px;
+    width: px;
 
 }
 .nav{
@@ -26,4 +26,11 @@
     border: 2px solid rgb(146, 128, 128);
     margin-top: 50px;
      
+}
+
+
+/* footer */
+
+.footer{
+    text-align: center;
 }
